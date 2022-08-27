@@ -6,7 +6,7 @@ We assume that both the forward GBP and EURO CMS rates follow geometric Brownian
 
 •	the same payment times as the underlying CMS,
 
-•	coupon equal to the forward CMS rate, 
+•	coupon equal to the forward CMS rate, Coupon payment is computed as https://finpricing.com/lib/FiBondCoupon.html
 
 •	initial bond yield equal to the forward CMS rate.
 
@@ -15,9 +15,5 @@ From the above the correlation, under foreign T-forward measure, between the Bro
 To evaluate the expression above, we require the SDE followed by the forward exchange rate process under domestic T-forward measure.  This is derived by changing measure from foreign  -forward measure, to domestic risk-neutral measure, to domestic  -forward measure.
 
 References:
-
-https://finpricing.com/lib/EqCallable.html
-
-https://osf.io/ndte4/wiki/home/
 
 https://osf.io/9db5u/download
